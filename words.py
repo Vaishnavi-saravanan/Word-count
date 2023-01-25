@@ -1,8 +1,7 @@
-## DEVELOPED BY : ABRIN NISHA A
-## REGISTER NO : 22008695
-
+#Developed by : VAISHNAVI S
+#RegisterNumber:22009040
 num_words =0
-with open('python.py','r') as file1:
+with open('words.py','r') as file1:
     for i in file1:
         word =i.split()
         num_words += len(word)
